@@ -16,7 +16,7 @@ So basically copy this, fill your mail, paste it into the file under "/etc/Netwo
 4. `sudo nmcli connection up "PJWSTK VPN"`
     - If you havent tried connecting before, go to your KDE or any network settings and give it your password in the VPN settings, it will store it for you, and click connect.
 5. If there are no errors test your connection to database with "nc -zv db-mssql.pjwstk.edu.pl 1433"  
-6. *Try in DataGrip* by first choosing User&Password authentication method in the dropdown and in the user section write PJWST/sXXXXX and give your pass too. It will give error and turn automatically to Domain credentials. Hit test, it will download drivers, and you should be all set! Yippie ._.)/\(._.
+6. *Try in DataGrip* by first choosing User&Password authentication method in the dropdown and in the user section write PJWST/sXXXXX and give your pass too. It will give error and turn automatically to Domain credentials. Hit test, it will download drivers, and you should be all set! Yippie `._.)/\(._.`
 
 ![Screenshot for DataGrip Database Configurations](DataGrip_Setup.png?raw=true)
 
