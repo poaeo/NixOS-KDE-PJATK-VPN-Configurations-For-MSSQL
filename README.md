@@ -9,7 +9,7 @@ You can copy the file name "PJWSTK VPN" this and fill here with your student mai
 user=sXXXXX@pjwstk.edu.pl 
 
 The file doesn't include uuid, OS autogenerates it as far as I know, if not you can run uuidgen in your terminal and add uuid=YOUR_UUID under [connection] section in your configuration. Your password is also handled by your DE secrets manager. It is very hard to get this right under KDE because of the naming differences and most importantly requiring MPPE or using it very confusing. Not to mention confusing routing panes and stuff.  
-So basically copy this, fill your mail, paste it into the file under "/etc/NetworkManager/system-connections/PJWSTK VPN", like `sudo mkdir "/etc/NetworkManager/system-connections/PJWSTK VPN"` or `sudo nvim "/etc/NetworkManager/system-connections/PJWSTK VPN"' for editing. then run the following 
+So basically copy this, fill your mail, paste it into the file under "/etc/NetworkManager/system-connections/PJWSTK VPN", like `sudo cp "PJWSTK VPN" "/etc/NetworkManager/system-connections/PJWSTK VPN"` or `sudo nvim "/etc/NetworkManager/system-connections/PJWSTK VPN"' for editing. then run the following 
 1. `sudo chmod 600 "/etc/NetworkManager/system-connections/PJWSTK VPN"` 
 2. `sudo chown root:root "/etc/NetworkManager/system-connections/PJWSTK VPN"`
 3. `sudo nmcli connection reload`
