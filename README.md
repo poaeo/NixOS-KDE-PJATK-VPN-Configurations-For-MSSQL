@@ -18,4 +18,5 @@ So basically copy this, fill your mail, paste it into the file under "/etc/Netwo
 5. If there are no errors test your connection to database with "nc -zv db-mssql.pjwstk.edu.pl 1433"  
 6. *Try in DataGrip* by first choosing User&Password authentication method in the dropdown and in the user section write PJWST/sXXXXX and give your pass too. It will give error and turn automatically to Domain credentials. Hit test, it will download drivers, and you should be all set! Yippie ._.)/\(._.
 
-![DataGrip_Setup.png]
+![Screenshot for DataGrip Database Configurations](DataGrip_Setup.png?raw=true)
+
